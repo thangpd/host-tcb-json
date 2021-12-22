@@ -1,0 +1,116 @@
+{
+    "status": 200,
+    "messagecode": "lok",
+    "message": "success",
+    "data": [
+        {
+            "servid": 61,
+            "servnm": "Nộp Rút Tiền, Chuyển Tiền, Sao Kê, Sec",
+            "subservice": [
+                {
+                    "servid": 71,
+                    "amountlimit": "50000000",
+                    "servnm": "Nộp tiền",
+                    "mainservid": 61,
+                    "required": [
+                        {
+                            "label": "Amount",
+                            "type": "text"
+                        },
+                        {
+                            "label": "Acount No",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "servid": 72,
+                    "amountlimit": "50000000",
+                    "servnm": "Rút tiền từ tài khoản",
+                    "mainservid": 61,
+                    "required": [
+                        {
+                            "label": "Amount",
+                            "type": "text"
+                        },
+                        {
+                            "label": "Acount No",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "servid": 73,
+                    "amountlimit": "-1",
+                    "servnm": "Rút tiền bằng Sec",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 74,
+                    "amountlimit": "-1",
+                    "servnm": "Chuyển tiền trong hệ thống",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 75,
+                    "amountlimit": "-1",
+                    "servnm": "Chuyển tiền ngoài hệ thống",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 76,
+                    "amountlimit": "-1",
+                    "servnm": "Tra soát điện đến/đi",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 77,
+                    "amountlimit": "-1",
+                    "servnm": "Hạch toán đóng tài khoản ",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 78,
+                    "amountlimit": "-1",
+                    "servnm": "Sao kê tài khoản",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 79,
+                    "amountlimit": "-1",
+                    "servnm": "Xác nhận số dư tài khoản",
+                    "mainservid": 61,
+                    "required": []
+                },
+                {
+                    "servid": 80,
+                    "amountlimit": "-1",
+                    "servnm": "Phát hành SEC",
+                    "mainservid": 61,
+                    "required": []
+                }
+            ]
+        },
+        {
+            "servid": 62,
+            "servnm": "Thanh Toán, Mua Bán Ngoại Tệ, Western Union",
+            "subservice": []
+        },
+        {
+            "servid": 63,
+            "servnm": "Tài Khoản, Ngân Hàng Điện Tử, Thẻ Ghi Nợ",
+            "subservice": []
+        },
+        {
+            "servid": 64,
+            "servnm": "Tư Vấn Sản Phẩm Tài Chính(Tiết kiệm, Thẻ tín dụng, Bảo hiểm, Vay…)",
+            "subservice": []
+        }
+    ]
+}

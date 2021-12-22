@@ -1,0 +1,20 @@
+{
+    "status": 200,
+    "messagecode": "lok",
+    "message": "success",
+    "data": {
+        "apmt_code": "718488",
+        "apmt_id": 184,
+        "apmt_date": "2020-10-29",
+        "apmt_time": "19:30",
+        "branchid": 78,
+        "branch_name": "Dev-50",
+        "branch_address": "Tầng 1 tòa tháp C tổ hợp Starcity Center, Cầu Giấy, Hà Nội^1st floor, Starcity Center, Cau Giay, Ha Noi",
+        "cust_id": "32553021",
+        "cust_id_type": 9,
+        "phone": "0918228910",
+        "email": "abc@1234.com",
+        "services": "{\"servid\":\"61\",\"servnm\":\"Money Widrawal\",\"required\":[{\"label\":\"Amount\",\"value\":\"5000\"},{\"label\":\"Account No\",\"value\":\"109837655\"}]}",
+        "apmt_qr": "718488"
+    }
+}
