@@ -1,0 +1,19 @@
+{
+  "name": "host-tcb-json",
+  "version": "1.0.0",
+  "description": "node app tcb",
+  "main": "./app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thangpd/host-tcb-json"
+  },
+  "author": "Thomas Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/thangpd/host-tcb-json"
+}
