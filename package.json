@@ -4,7 +4,7 @@
   "description": "node app tcb",
   "main": "./app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "https://github.com/thangpd/host-tcb-json"
+  "homepage": "https://github.com/thangpd/host-tcb-json",
+  "dependencies": {
+    "pm2": "^5.1.2"
+  }
 }
