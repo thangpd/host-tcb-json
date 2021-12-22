@@ -11,7 +11,6 @@ const server = http.createServer((req, res) => {
     let path_json = './apmt/request_sample/'
     res.statusCode = 200
     res.setHeader('Content-Type', 'application/json')
-    res.writeHead(200, {'Content-Type': 'application/json'});
 
     if (req.url == '/') {
         res.write('<h1>Hello world!</h1>')
@@ -34,6 +33,8 @@ const server = http.createServer((req, res) => {
         res.write(data)
         res.end(data)
     } else {
+        res.writeHead(200, {'Content-Type': 'text/html'});
+
         res.write('<html>')
         res.write('<title>Error</title>')
         res.write('<h1>404 Not Found</h1>')
