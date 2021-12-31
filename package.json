@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thangpd/host-tcb-json",
   "dependencies": {
+    "lodash": "^4.17.21",
     "pm2": "^5.1.2"
   }
 }
