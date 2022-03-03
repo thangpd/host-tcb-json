@@ -27,12 +27,12 @@ const server = http.createServer((req, res) => {
     } else if (req.url === '/list-branch') {
         var data = fs.readFileSync(path_json + 'listbranch.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
-        res.write(data);
+        // res.write(data);
         res.end(data)
     } else if (req.url === '/get-avail-slot') {
         var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
-        res.write(data);
+        // res.write(data);
         res.end(data)
     } else if (req.url === '/submit-form') {
         // var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
