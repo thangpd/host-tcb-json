@@ -19,21 +19,20 @@ const server = http.createServer((req, res) => {
         res.write('<h1>Hello world!</h1>')
 
         res.end()
-    } else if (req.url === '/get-avail-slot') {
-        var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
+    } else if (req.url === '/list-service-web') {
+        var data = fs.readFileSync(path_json + 'listserviceweb.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
-        res.write(data);
+        res.write(data)
         res.end(data)
     } else if (req.url === '/list-branch') {
         var data = fs.readFileSync(path_json + 'listbranch.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
         res.write(data);
         res.end(data)
-
-    } else if (req.url === '/list-service-web') {
-        var data = fs.readFileSync(path_json + 'listserviceweb.json', 'utf-8')
+    } else if (req.url === '/get-avail-slot') {
+        var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
-        res.write(data)
+        res.write(data);
         res.end(data)
     } else {
         res.writeHead(200, {'Content-Type': 'text/html'});
