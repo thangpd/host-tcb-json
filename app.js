@@ -34,6 +34,12 @@ const server = http.createServer((req, res) => {
         data = helperfunc.convert_string_to_json_stringify(data)
         res.write(data);
         res.end(data)
+    } else if (req.url === '/submit-form') {
+        // var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
+        // data = helperfunc.convert_string_to_json_stringify(data)
+        // res.write(data);
+        data = {'message': 'ok'}
+        res.end(data)
     } else {
         res.writeHead(200, {'Content-Type': 'text/html'});
 
