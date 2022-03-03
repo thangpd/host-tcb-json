@@ -1,4 +1,5 @@
 function convert_string_to_json_stringify(data) {
+    console.log(typeof data)
     //parse string to json object
     data = JSON.parse(data)
     console.log(typeof data)
