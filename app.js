@@ -32,8 +32,16 @@ const server = http.createServer((req, res) => {
     } else if (req.url === '/get-avail-slot') {
         var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
         data = helperfunc.convert_string_to_json_stringify(data)
-        // res.write(data);
-        res.end(data)
+
+        data = JSON.parse(data)
+        var today = new Date();
+        data.data.slot.map(value => {
+            value.date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+            today.setDate(today.getDate() + 1);
+            return value
+        })
+        console.log(data)
+        res.end(JSON.stringify(data))
     } else if (req.url === '/submit-form') {
         // var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
         // data = helperfunc.convert_string_to_json_stringify(data)
