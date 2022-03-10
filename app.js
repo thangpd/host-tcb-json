@@ -47,7 +47,28 @@ const server = http.createServer((req, res) => {
         // data = helperfunc.convert_string_to_json_stringify(data)
         // res.write(data);
         // data = helperfunc.convert_string_to_json_stringify("{message: ok}")
-        data = {message: 'ok', ticketNumber: '000231'}
+        // data = {message: 'ok', ticketNumber: '000231'}
+        data = {
+            "status": 200,
+            "messagecode": "lok",
+            "message": "success",
+            "data": {
+                "apmt_code": "195010",
+                "apmt_id": 13,
+                "apmt_date": "2022-03-10",
+                "apmt_time": "17:00",
+                "branchid": 78,
+                "branch_name": "Dev/test 50",
+                "branch_address": "Tầng 1 tòa tháp C tổ hợp Starcity Center, Cầu Giấy, Hà Nội",
+                "cust_id": null,
+                "cust_name": "colin",
+                "cust_id_type": 0,
+                "phone": "0918228910",
+                "email": "p2@p.p",
+                "services": "{\"servid\":\"61\",\"servnm\":\"Deposit-withdrawal\",\"required\":[]}",
+                "apmt_qr": "195010"
+            }
+        }
         data = JSON.stringify(data)
         res.end(data)
     } else {
