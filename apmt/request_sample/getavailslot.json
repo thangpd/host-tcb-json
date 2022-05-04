@@ -1,555 +1,295 @@
 {
-    "status": 200,
-    "messagecode": "lok",
-    "message": "success",
-    "data": {
-        "slot": [
-            {
-                "date": "2022-3-10",
-                "slotam": [
-                    {
-                        "time": "08:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "08:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    }
-                ],
-                "slotpm": [
-                    {
-                        "time": "12:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "12:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:30",
-                        "maxslot": 1,
-                        "slotbal": 0,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:00",
-                        "maxslot": 1,
-                        "slotbal": -1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "20:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    }
-                ]
-            },
-            {
-                "date": "2022-3-9",
-                "slotam": [
-                    {
-                        "time": "08:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "08:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    }
-                ],
-                "slotpm": [
-                    {
-                        "time": "12:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "12:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "20:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    }
-                ]
-            },
-            {
-                "date": "2020-10-30",
-                "slotam": [
-                    {
-                        "time": "08:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "08:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "09:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "10:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "11:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    }
-                ],
-                "slotpm": [
-                    {
-                        "time": "12:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "12:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "13:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "14:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "15:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "16:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 0
-                    },
-                    {
-                        "time": "17:30",
-                        "maxslot": 1,
-                        "slotbal": 0,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "18:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "19:30",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    },
-                    {
-                        "time": "20:00",
-                        "maxslot": 1,
-                        "slotbal": 1,
-                        "isdupl": 0,
-                        "enable": 1
-                    }
-                ]
-            }
-        ]
-    }
+    "isFull": 0,
+    "slotList": [
+        {
+            "slotDate": "2022-04-29",
+            "slotData": [
+                {
+                    "slotType": "AM",
+                    "slotTime": "08:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "08:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "11:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "11:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "11:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "12:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "12:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "13:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "13:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "13:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "13:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "14:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "14:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "14:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "14:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "15:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "15:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "15:30",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "15:45",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "16:00",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "PM",
+                    "slotTime": "16:15",
+                    "slotbal": 1,
+                    "maxslot": 5,
+                    "enable": 0,
+                    "isdupl": 0
+                }
+            ]
+        },
+        {
+            "slotDate": "2022-04-30",
+            "slotData": [
+                {
+                    "slotType": "AM",
+                    "slotTime": "08:30",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:00",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "09:30",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:00",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "10:30",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                },
+                {
+                    "slotType": "AM",
+                    "slotTime": "11:00",
+                    "slotbal": 5,
+                    "maxslot": 5,
+                    "enable": 1,
+                    "isdupl": 0
+                }
+            ]
+        }
+    ]
 }

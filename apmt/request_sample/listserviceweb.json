@@ -1,116 +1,206 @@
 {
-    "status": 200,
-    "messagecode": "lok",
-    "message": "success",
-    "data": [
+    "servicesList": [
         {
-            "servid": 61,
-            "servnm": "Nộp Rút Tiền, Chuyển Tiền, Sao Kê, Sec",
-            "subservice": [
+            "serviceInf": {
+                "srvIdent": 61,
+                "srvName": "Nộp Rút, Chuyển Tiền, Sao Kê, Séc"
+            },
+            "subServiceInf": [
                 {
-                    "servid": 71,
-                    "amountlimit": "50000000",
-                    "servnm": "Nộp tiền",
-                    "mainservid": 61,
-                    "required": [
+                    "srvIdent": 71,
+                    "srvName": "Nộp tiền",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1,
+                    "refData": [
                         {
-                            "label": "Amount",
-                            "type": "text"
+                            "refType": "number",
+                            "refIdent": "amount"
                         },
                         {
-                            "label": "Acount No",
-                            "type": "text"
+                            "refType": "number",
+                            "refIdent": "account No"
                         }
                     ]
                 },
                 {
-                    "servid": 72,
-                    "amountlimit": "50000000",
-                    "servnm": "Rút tiền từ tài khoản",
-                    "mainservid": 61,
-                    "required": [
+                    "srvIdent": 72,
+                    "srvName": "rút tiền",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1,
+                    "refData": [
                         {
-                            "label": "Amount",
-                            "type": "text"
+                            "refType": "number",
+                            "refIdent": "amount"
                         },
                         {
-                            "label": "Acount No",
-                            "type": "text"
+                            "refType": "number",
+                            "refIdent": "account No"
                         }
                     ]
                 },
                 {
-                    "servid": 73,
-                    "amountlimit": "-1",
-                    "servnm": "Rút tiền bằng Sec",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 73,
+                    "srvName": "rút tiền bằng Séc",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 74,
-                    "amountlimit": "-1",
-                    "servnm": "Chuyển tiền trong hệ thống",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 74,
+                    "srvName": "Chuyển tiền trong hệ thống",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 75,
-                    "amountlimit": "-1",
-                    "servnm": "Chuyển tiền ngoài hệ thống",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 75,
+                    "srvName": "Chuyển tiền ngoài hệ thống",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 76,
-                    "amountlimit": "-1",
-                    "servnm": "Tra soát điện đến/đi",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 76,
+                    "srvName": "Tra soát điện đến/đi",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 77,
-                    "amountlimit": "-1",
-                    "servnm": "Hạch toán đóng tài khoản ",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 78,
+                    "srvName": "sao kê tài khoản",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 78,
-                    "amountlimit": "-1",
-                    "servnm": "Sao kê tài khoản",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 79,
+                    "srvName": "Xác nhận số dư tài khoản",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 },
                 {
-                    "servid": 79,
-                    "amountlimit": "-1",
-                    "servnm": "Xác nhận số dư tài khoản",
-                    "mainservid": 61,
-                    "required": []
-                },
-                {
-                    "servid": 80,
-                    "amountlimit": "-1",
-                    "servnm": "Phát hành SEC",
-                    "mainservid": 61,
-                    "required": []
+                    "srvIdent": 80,
+                    "srvName": "Phát hành Sec",
+                    "mainSrvIdent": 61,
+                    "amountLimit": -1
                 }
             ]
         },
         {
-            "servid": 62,
-            "servnm": "Thanh Toán, Mua Bán Ngoại Tệ, Western Union",
-            "subservice": []
+            "serviceInf": {
+                "srvIdent": 62,
+                "srvName": "Thanh Toán, Mua Bán Ngoại Tệ, Western Union"
+            },
+            "subServiceInf": [
+                {
+                    "srvIdent": 91,
+                    "srvName": "sua bán ngoại tệ",
+                    "mainSrvIdent": 62,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 92,
+                    "srvName": "Thanh toán hóa đơn",
+                    "mainSrvIdent": 62,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 93,
+                    "srvName": "Thanh toán quốc tế",
+                    "mainSrvIdent": 62,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 98,
+                    "srvName": "Western Union",
+                    "mainSrvIdent": 62,
+                    "amountLimit": -1
+                }
+            ]
         },
         {
-            "servid": 63,
-            "servnm": "Tài Khoản, Ngân Hàng Điện Tử, Thẻ Ghi Nợ",
-            "subservice": []
+            "serviceInf": {
+                "srvIdent": 63,
+                "srvName": "Tài Khoản, Ngân Hàng Điện Tử, Thẻ Ghi Nợ"
+            },
+            "subServiceInf": [
+                {
+                    "srvIdent": 111,
+                    "srvName": "sở Tài khoản",
+                    "mainSrvIdent": 63,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 113,
+                    "srvName": "sở Thẻ ghi nợ",
+                    "mainSrvIdent": 63,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 118,
+                    "srvName": "Đăng ký E-banking",
+                    "mainSrvIdent": 63,
+                    "amountLimit": -1
+                }
+            ]
         },
         {
-            "servid": 64,
-            "servnm": "Tư Vấn Sản Phẩm Tài Chính(Tiết kiệm, Thẻ tín dụng, Bảo hiểm, Vay…)",
-            "subservice": []
+            "serviceInf": {
+                "srvIdent": 64,
+                "srvName": "Tư Vấn Sản Phẩm Tài Chính (Tiết kiệm, Thẻ tín dụng, Bảo hiểm, Vay…)"
+            },
+            "subServiceInf": [
+                {
+                    "srvIdent": 116,
+                    "srvName": "Tư vấn Sổ tiết kiệm (STK)",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 121,
+                    "srvName": "Tư vấn Thẻ tín dụng",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 123,
+                    "srvName": "Tư vấn Bảo hiểm",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 124,
+                    "srvName": "Tư vấn Vay cầm cố STK",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 125,
+                    "srvName": "Tư vấn Thấu chi",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 126,
+                    "srvName": "Tư vấn Vay tiêu dùng tín chấp",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 100,
+                    "srvName": "Tư vấn Vay tiêu dùng thế chấp",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 101,
+                    "srvName": "Tư vấn vay mua nhà",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                },
+                {
+                    "srvIdent": 102,
+                    "srvName": "Tư vấn vay mua xe",
+                    "mainSrvIdent": 64,
+                    "amountLimit": -1
+                }
+            ]
         }
     ]
 }

@@ -1,139 +1,68 @@
 {
-    "status": 200,
-    "messagecode": "lok",
-    "message": "success",
-    "data": {
-        "branches": [
-            {
-                "branchid": "78",
-                "name": "Dev-50",
-                "address": "Tầng 1 tòa tháp C tổ hợp Starcity Center, Cầu Giấy, Hà Nội",
-                "latitude": 21.0062,
-                "longitude": 105.795,
-                "city_id": "113",
-                "district_id": "179",
-                "branch_code": "DDA",
-                "cust_loc_dist": 0
-            },
-            {
-                "branchid": "15",
-                "name": "Dev-60",
-                "address": "Kiot 1 và 2 trung tâm TM , Từ Sơn, Bắc Ninh",
-                "latitude": 21.114,
-                "longitude": 105.953,
-                "city_id": "105",
-                "district_id": "163",
-                "branch_code": "DBG",
-                "cust_loc_dist": 0
+    "branchList": [
+        {
+            "branchInf": {
+                "branchId": 105,
+                "branchCd": "CBI",
+                "branchNm": "29-3",
+                "pstlAdr": {
+                    "adrLine": "Số 24 -26 Điện Biên Phủ, Thanh Khê, Đà Nẵng"
+                },
+                "lat": 16.0662,
+                "long": 108.205,
+                "distance": 0,
+                "cityId": 122,
+                "districtId": 193
             }
-        ],
-        "dis_city": [
-            {
-                "city_id": "105",
-                "cityname": "Bắc Ninh",
-                "districts": [
+        },
+        {
+            "branchInf": {
+                "branchId": 158,
+                "branchCd": "HHT",
+                "branchNm": "an Giang",
+                "pstlAdr": {
+                    "adrLine": "Số 328/4  Hùng Vương, Long Xuyên, An Giang"
+                },
+                "lat": 10.3784,
+                "long": 105.442,
+                "distance": 0,
+                "cityId": 135,
+                "districtId": 225
+            }
+        }
+    ],
+    "pstlAdr": [
+        {
+            "city": {
+                "cityCd": 113,
+                "cityNm": "Hà Nội",
+                "district": [
                     {
-                        "district_id": "159",
-                        "district_name": "Bắc Ninh"
+                        "districtCd": 167,
+                        "districtNm": "long Biên"
                     },
                     {
-                        "district_id": "163",
-                        "district_name": "Từ Sơn"
-                    }
-                ]
-            },
-            {
-                "city_id": "105",
-                "cityname": "Bắc Ninh",
-                "districts": [
-                    {
-                        "district_id": "159",
-                        "district_name": "Bắc Ninh"
-                    },
-                    {
-                        "district_id": "163",
-                        "district_name": "Từ Sơn"
-                    }
-                ]
-            },
-            {
-                "city_id": "113",
-                "cityname": "Hà Nội",
-                "districts": [
-                    {
-                        "district_id": "167",
-                        "district_name": "Long Biên"
-                    },
-                    {
-                        "district_id": "168",
-                        "district_name": "Hoàn Kiếm"
-                    },
-                    {
-                        "district_id": "169",
-                        "district_name": "Sóc Sơn"
-                    },
-                    {
-                        "district_id": "170",
-                        "district_name": "Đông Anh"
-                    },
-                    {
-                        "district_id": "171",
-                        "district_name": "Ba Đình"
-                    },
-                    {
-                        "district_id": "172",
-                        "district_name": "Tây Hồ"
-                    },
-                    {
-                        "district_id": "173",
-                        "district_name": "Mê Linh"
-                    },
-                    {
-                        "district_id": "174",
-                        "district_name": "Đống Đa"
-                    },
-                    {
-                        "district_id": "175",
-                        "district_name": "Thanh Xuân"
-                    },
-                    {
-                        "district_id": "176",
-                        "district_name": "Hoàng Mai"
-                    },
-                    {
-                        "district_id": "177",
-                        "district_name": "Hai Bà Trưng"
-                    },
-                    {
-                        "district_id": "178",
-                        "district_name": "Thường Tín"
-                    },
-                    {
-                        "district_id": "179",
-                        "district_name": "Cầu Giấy"
-                    },
-                    {
-                        "district_id": "180",
-                        "district_name": "Bắc Từ Liêm"
-                    },
-                    {
-                        "district_id": "181",
-                        "district_name": "Hà Đông"
-                    },
-                    {
-                        "district_id": "182",
-                        "district_name": "Nam Từ Liêm"
-                    },
-                    {
-                        "district_id": "183",
-                        "district_name": "Đan Phượng"
-                    },
-                    {
-                        "district_id": "184",
-                        "district_name": "Chương Mỹ"
+                        "districtCd": 168,
+                        "districtNm": "Hoàn Kiếm"
                     }
                 ]
             }
-        ]
-    }
+        },
+        {
+            "city": {
+                "cityCd": 133,
+                "cityNm": "Hồ Chí Minh",
+                "district": [
+                    {
+                        "districtCd": 207,
+                        "districtNm": "Quận 1"
+                    },
+                    {
+                        "districtCd": 208,
+                        "districtNm": "Quận Bình Thạnh"
+                    }
+                ]
+            }
+        }
+    ]
 }
