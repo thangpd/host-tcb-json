@@ -35,8 +35,8 @@ const server = http.createServer((req, res) => {
 
         data = JSON.parse(data)
         var today = new Date();
-        data.data.slot.map(value => {
-            value.date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+        data.slotList.map(value => {
+            value.slotDate = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
             today.setDate(today.getDate() + 1);
             return value
         })
