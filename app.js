@@ -42,7 +42,7 @@ const server = http.createServer((req, res) => {
         })
         console.log(data)
         res.end(JSON.stringify(data))
-    } else if (req.url === '/submit-form') {
+    } else if (req.url === '/submit-appointment-form') {
         // var data = fs.readFileSync(path_json + 'getavailslot.json', 'utf-8')
         // data = helperfunc.convert_string_to_json_stringify(data)
         // res.write(data);
