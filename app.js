@@ -8,15 +8,15 @@ const helperfunc = require('./helper-functions')
 const server = http.createServer((req, res) => {
     console.log(req.url)
     // console.log(req)
-    console.log(r.method, r.url, r.headers);
+    console.log(req.method, req.url, req.headers);
     var body = "";
-    r.on('readable', function() {
-        body += r.read();
+    req.on('readable', function() {
+        body += req.read();
     });
-    r.on('end', function() {
+    req.on('end', function() {
         console.log(body);
-        s.write("OK");
-        s.end();
+        res.write("OK");
+        res.end();
     });
     let path_json = './apmt/request_sample/'
     res.statusCode = 200
