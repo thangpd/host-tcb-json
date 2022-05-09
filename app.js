@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
     } else if (req.url === '/list-branch') {
         var data = fs.readFileSync(path_json + 'listbranch.json', 'utf-8')
         // data = helperfunc.convert_string_to_json_stringify(data)
-        data=helperfunc.convert_string_to_json_stringify(req)
+        data=req
         // res.write(data);
         res.end(data)
     } else if (req.url === '/get-avail-slot') {
