@@ -21,12 +21,14 @@ const server = http.createServer((req, res) => {
         res.end()
     } else if (req.url === '/list-service-web') {
         var data = fs.readFileSync(path_json + 'listserviceweb.json', 'utf-8')
-        data = helperfunc.convert_string_to_json_stringify(data)
+        // data = helperfunc.convert_string_to_json_stringify(data)
+        data=helperfunc.convert_string_to_json_stringify(req)
         // res.write(data)
         res.end(data)
     } else if (req.url === '/list-branch') {
         var data = fs.readFileSync(path_json + 'listbranch.json', 'utf-8')
-        data = helperfunc.convert_string_to_json_stringify(data)
+        // data = helperfunc.convert_string_to_json_stringify(data)
+        data=helperfunc.convert_string_to_json_stringify(req)
         // res.write(data);
         res.end(data)
     } else if (req.url === '/get-avail-slot') {
