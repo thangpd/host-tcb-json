@@ -12,8 +12,8 @@ const server = http.createServer((req, res) => {
     let path_json = './apmt/request_sample/'
     res.statusCode = 200
     res.setHeader('Content-Type', 'application/json')
-console.log(req)
-    console.log( res)
+console.log(req.body)
+    // console.log( res)
     if (req.url == '/') {
         res.writeHead(200, {'Content-Type': 'text/html'});
 
