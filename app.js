@@ -7,8 +7,17 @@ const helperfunc = require('./helper-functions')
 
 const server = http.createServer((req, res) => {
     console.log(req.url)
-    console.log(req)
-
+    // console.log(req)
+    console.log(r.method, r.url, r.headers);
+    var body = "";
+    r.on('readable', function() {
+        body += r.read();
+    });
+    r.on('end', function() {
+        console.log(body);
+        s.write("OK");
+        s.end();
+    });
     let path_json = './apmt/request_sample/'
     res.statusCode = 200
     res.setHeader('Content-Type', 'application/json')
