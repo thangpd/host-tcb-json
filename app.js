@@ -8,7 +8,7 @@ const helperfunc = require('./helper-functions')
 const server = http.createServer((req, res) => {
     console.log(req.url)
     // console.log(req)
-    console.log(req.method, req.url, req.headers);
+    // console.log(req.method, req.url, req.headers);
     var body = "";
     req.on('readable', function() {
         body += req.read();
