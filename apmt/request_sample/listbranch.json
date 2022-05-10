@@ -1,65 +1,45 @@
 {
     "branchList": [
         {
-            "branchInf": {
-                "branchId": 105,
-                "branchCd": "CBI",
-                "branchNm": "29-3",
-                "pstlAdr": {
-                    "adrLine": "Số 24 -26 Điện Biên Phủ, Thanh Khê, Đà Nẵng"
-                },
-                "lat": 16.0662,
-                "long": 108.205,
-                "distance": 0,
-                "cityId": 122,
-                "districtId": 193
-            }
+            "branchId": "22",
+            "branchCd": "DAH",
+            "branchNm": "Đông Anh",
+            "pstlAdr": {
+                "adrLine": "Số 143-145 khối 1B, thị trấn Đông Anh,, Đông Anh, Hà Nội"
+            },
+            "lat": 21.1367,
+            "long": 105.844,
+            "distance": 0,
+            "cityId": "113",
+            "districtId": "170"
         },
         {
-            "branchInf": {
-                "branchId": 158,
-                "branchCd": "HHT",
-                "branchNm": "an Giang",
-                "pstlAdr": {
-                    "adrLine": "Số 328/4  Hùng Vương, Long Xuyên, An Giang"
-                },
-                "lat": 10.3784,
-                "long": 105.442,
-                "distance": 0,
-                "cityId": 135,
-                "districtId": 225
-            }
+            "branchId": "79",
+            "branchCd": "MDH",
+            "branchNm": "Hà Đông",
+            "pstlAdr": {
+                "adrLine": "Một phần diện tích tầng 1 tòa nhà chung cư CT1, làng việt kiều châu Âu, Hà Đông, Hà Nội"
+            },
+            "lat": 20.9861,
+            "long": 105.782,
+            "distance": 0,
+            "cityId": "113",
+            "districtId": "181"
         }
     ],
     "pstlAdr": [
         {
             "city": {
-                "cityCd": 113,
+                "cityCd": "113",
                 "cityNm": "Hà Nội",
                 "district": [
                     {
-                        "districtCd": 167,
-                        "districtNm": "long Biên"
+                        "districtCd": "170",
+                        "districtNm": "Đông Anh"
                     },
                     {
-                        "districtCd": 168,
-                        "districtNm": "Hoàn Kiếm"
-                    }
-                ]
-            }
-        },
-        {
-            "city": {
-                "cityCd": 133,
-                "cityNm": "Hồ Chí Minh",
-                "district": [
-                    {
-                        "districtCd": 207,
-                        "districtNm": "Quận 1"
-                    },
-                    {
-                        "districtCd": 208,
-                        "districtNm": "Quận Bình Thạnh"
+                        "districtCd": "181",
+                        "districtNm": "Hà Đông"
                     }
                 ]
             }
